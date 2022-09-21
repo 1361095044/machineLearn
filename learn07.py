@@ -103,6 +103,6 @@ def linear3():
     print("岭回归-均方误差为：\n", error)
 
 if __name__ == '__main__':
-    # linear1()
-    linear2()
+    linear1()
+    # linear2()
     # linear3()

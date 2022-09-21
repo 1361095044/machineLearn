@@ -41,7 +41,7 @@ def lunkuoxishu():
     estimator = KMeans(n_clusters=3)
     estimator.fit(data_new)
     y_predict = estimator.predict(data_new)
-    y_predict[:300]
+    print(y_predict[:300])
     # 模型评估-轮廓系数
     print(silhouette_score(data_new, y_predict))
 
